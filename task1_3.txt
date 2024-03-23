@@ -1,0 +1,3 @@
+1.schemat hornera wyznaczanie wartosci wielomianu w punkcie 
+2.schemat hornera-dzielenie wielomianu przez dwumian
+3. rozwiazywanie równań nieliniowych metoda bisekcji, znalezc pierwiastek rzeczywisty równania x^3+x-1=0 w przedziale [0;1] z dokładnoscia do e=0,01
