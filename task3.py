@@ -3,11 +3,11 @@ def Bisekcja(a,b,blad):
 
 #funkcja dla której liczone sa miejsca zerowe
     def f(x):
-        return x**3-x-1
+        return -x**3+x+9
     
 
     # warunek bisekcji
-    if(f(a)*(f(b)>=0)):
+    if(f(a)*f(b)>=0):
         raise ArithmeticError("niespełnione załozenia")
     while(b-a)>blad:
         c=(a+b)/2
@@ -23,7 +23,7 @@ def Bisekcja(a,b,blad):
 
 
 try:
-    wynik = Bisekcja(0, 1, 0.01)
+    wynik = Bisekcja(0, 100, 0.01)
     print("Pierwiastek wielomianu:", wynik)
 except ArithmeticError as e:
     print("Błąd:", e)

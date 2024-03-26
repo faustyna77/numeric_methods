@@ -1,0 +1,4 @@
+4.Rozwiazywanie równań nieliniowych metoda stycznych; znalezc dodatni pierwiastek równania sin(x)-0.5x=0 w przedziale [pi/2;pi] z dokładnoscia e=0,01
+
+5. rozwiazywanie równań nieliniowych metoda siecznych ;znalezc pierwiastek równania 3x-3=0 w przedziale [1;2] z dokładnoscia e=0,001
+6. rozwiazywanie równań nieliniowych ; metoda falsi ; znalezc rzeczywisty pierwiastek równania 3x-cosx-1=0 w przedziale [0.25;0.75] przyjac e=0.00001
